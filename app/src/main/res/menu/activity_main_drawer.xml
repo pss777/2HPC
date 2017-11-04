@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:checkableBehavior="single">
+        <!-- item
+            android:id="@+id/main"
+            android:orderInCategory="0"
+            android:title="Главная" / -->
+        <item
+            android:id="@+id/soft"
+            android:icon="@drawable/ico_soft"
+            android:orderInCategory="1"
+            android:title="Софт"/>
+        <item
+            android:id="@+id/hard"
+            android:icon="@drawable/ico_hard"
+            android:orderInCategory="2"
+            android:title="Железо" />
+        <item
+            android:id="@+id/external"
+            android:icon="@drawable/ico_external"
+            android:orderInCategory="3"
+            android:title="Периферия" />
+        <item
+            android:id="@+id/lan"
+            android:icon="@drawable/ico_lan"
+            android:orderInCategory="4"
+            android:title="Сеть" />
+        <item
+            android:id="@+id/internet"
+            android:icon="@drawable/ico_internet"
+            android:orderInCategory="5"
+            android:title="Интернет" />
+        <item
+            android:id="@+id/notes"
+            android:icon="@drawable/ico_notes"
+            android:orderInCategory="6"
+            android:title="Заметки" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ico_about"
+            android:orderInCategory="7"
+            android:title="О приложении" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ico_exit"
+            android:orderInCategory="8"
+            android:title="Выход" />
+    </group>
+
+</menu>
